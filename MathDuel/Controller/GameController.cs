@@ -9,9 +9,9 @@ namespace MathDuel.Controllers
     public class GameController
     {
         private readonly GameModel _gameModel;
-        private readonly IGameView _gameView;
+        private readonly GameView _gameView;
 
-        public GameController(GameModel gameModel, IGameView gameView)
+        public GameController(GameModel gameModel, GameView gameView)
         {
             _gameModel = gameModel;
             _gameView = gameView;
